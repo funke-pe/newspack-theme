@@ -1,3 +1,10 @@
+## [2.4.3-alpha.1](https://github.com/Automattic/newspack-theme/compare/v2.4.2...v2.4.3-alpha.1) (2025-01-23)
+
+
+### Bug Fixes
+
+* make sure custom colours don't override newsletter modern style ([#2427](https://github.com/Automattic/newspack-theme/issues/2427)) ([651b875](https://github.com/Automattic/newspack-theme/commit/651b87529a03dc9fcaa41e56e8d4d87af2fea3ef))
+
 ## [2.4.2](https://github.com/Automattic/newspack-theme/compare/v2.4.1...v2.4.2) (2024-12-16)
 
 
