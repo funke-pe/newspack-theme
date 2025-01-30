@@ -10,9 +10,15 @@
 get_header();
 ?>
 	<section id="primary" class="content-area">
+
+		<?php
+		do_action( 'newspack_theme_primary_top' );
+		?>
+
 		<main id="main" class="site-main">
 
 			<?php
+			do_action( 'newspack_theme_main_top' );
 
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -32,9 +38,14 @@ get_header();
 				}
 
 			endwhile; // End of the loop.
+
+			do_action( 'newspack_theme_main_bottom' );
 			?>
 
 		</main><!-- #main -->
+		<?php
+		do_action( 'newspack_theme_primary_bottom' );
+		?>
 	</section><!-- #primary -->
 
 <?php
